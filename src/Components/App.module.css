@@ -1,0 +1,14 @@
+.Container {
+    padding: 24px 56px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5em;
+}
+
+.Box{
+    width: 168px;
+    height: 68px;
+    border-radius: 34px;
+    background-color: #E5D8EA;
+}

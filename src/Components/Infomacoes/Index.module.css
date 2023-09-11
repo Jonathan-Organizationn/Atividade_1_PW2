@@ -1,0 +1,17 @@
+.Info {
+    width: 100%;
+}
+
+.Info h2 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.Info h2 span {
+    color: #864293;
+}
+
+.Info p {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
