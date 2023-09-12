@@ -1,0 +1,32 @@
+.Container_chat {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.Message {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #E5E1E6;
+    padding: 10px 14px;
+    border-radius: 10px;
+}
+
+.Message div {
+    display: flex;
+    gap: 4em;
+    align-items: center;
+}
+
+.Message div img {
+    width: 50px;
+    height: 50px;
+}
+
+.Message svg {
+    cursor: pointer;
+}
