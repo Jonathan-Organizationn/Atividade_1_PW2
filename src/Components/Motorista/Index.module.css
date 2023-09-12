@@ -1,0 +1,53 @@
+.Container_profile {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Info_profile {
+    display: flex;
+    align-items: center;
+}
+
+.Car {
+    position: relative;
+    left: -3em;
+    z-index: -1;
+}
+
+.Info_profile div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Info_profile div span {
+    position: relative;
+    top: -22px;
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    padding: 5px 24px;
+    border-radius: 32px;
+    background-color: #372D3B;
+    color: #FBF8FC;
+}
+
+.Info_profile p {
+    margin: 0;
+    position: relative;
+    top: -14px;
+    font-weight: 600;
+}
+
+.Car_profile h3 {
+    font-size: 2em;
+    margin: 0;
+}
+
+.Car_profile p {
+    font-size: 1.1em;
+    font-weight: 500;
+    margin-block-start: 0.8em;
+}
