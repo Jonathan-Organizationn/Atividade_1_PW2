@@ -1,0 +1,47 @@
+.Container_input {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Input {
+    flex-grow: 1;
+}
+
+.Input input {
+    width: 95%;
+    margin: 0;
+    padding: 1em 1.4em;
+    border: none;
+    background-color: #F5EDF7;
+    border-radius: 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+}
+
+.Input input::placeholder {
+    color: #372D3B;
+}
+
+.Input_control {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Input_control svg {
+    width: 42px;
+    height: 42px;
+}
+
+.Input_control button {
+    background-color: #00875F;
+    color: #FFFFFF;
+    font-size: 1em;
+    font-weight: 600;
+    border: none;
+    border-radius: 16px;
+    padding: 16px 24px;
+    cursor: pointer;
+}
